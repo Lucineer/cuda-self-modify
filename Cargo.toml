@@ -3,3 +3,6 @@ name = "cuda-self-modify"
 version = "0.1.0"
 edition = "2021"
 description = "Self-modifying programs — runtime code adaptation through deliberation"
+
+[dependencies]
+cuda-equipment = { path = "../cuda-equipment" }
